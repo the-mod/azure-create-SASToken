@@ -1,0 +1,16 @@
+{
+  "name": "sastoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-common": "^1.9.2",
+    "azure-iot-device": "^1.9.2",
+    "azure-iothub": "^1.9.2"
+  }
+}
