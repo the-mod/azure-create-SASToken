@@ -1,7 +1,6 @@
 const iothub = require('azure-iothub');
 const deviceSas = require('azure-iot-device').SharedAccessSignature;
 
-// kudos to https://github.com/kvaes/TasmanianTraders-IoT-ConnectedVehicle-Functions/blob/master/getSASTokenByDeviceID/index.js
 const getSAS = function () {
     const connectionString = "of the iot hub";
     const iothubHost = "<your host>.azure-devices.net";
